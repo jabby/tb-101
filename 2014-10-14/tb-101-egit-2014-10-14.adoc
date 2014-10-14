@@ -10,7 +10,7 @@
 * Push
 * Fetch / Pull
 * Vous voulez voir quoi la semaine prochaine ?
-
+ 
 === Ce que l'on ne verra que la semaine prochaine :
 
 * La gestion des branches (création / switch)
