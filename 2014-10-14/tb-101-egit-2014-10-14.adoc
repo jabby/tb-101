@@ -1,2 +1,20 @@
 == Tb 101 EGit du 14/10/2014
 === Ce que l'on va voir :
+
+* Cloner un dépôt existant
+* Add
+* Comparer des fichiers
+** Oublier ce que vous faisiez avec SVN
+** Utiliser la vue Git Staging uniquement. Pas de Team > Synchronize
+* Commit
+* Push
+* Fetch / Pull
+* Vous voulez voir quoi la semaine prochaine ?
+
+=== Ce que l'on ne verra que la semaine prochaine :
+
+* La gestion des branches (création / switch)
+** Attention aux éditeurs ouverts
+* La gestion des rebases
+** Voir la partie quand il y a un rebase / merge qui est en cours car conflit.
+* La gestion de la config via EGit
