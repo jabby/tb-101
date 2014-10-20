@@ -13,6 +13,8 @@
  
 === Ce que l'on ne verra que la semaine prochaine :
 
+* Voir l'historique des fichiers / modifications
+* Voir qui a modifié une ligne
 * La gestion des branches (création / switch)
 ** Attention aux éditeurs ouverts
 * La gestion des rebases
