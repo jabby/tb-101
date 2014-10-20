@@ -6,7 +6,7 @@
 ** Dans la vue "Git Repositories", utiliser l'icône "Clone a Git Repository and add the clone to the view"
 ** Indiquez les informations nécessaire : Vous pouvez directement utiliser l'url indiquée sur gitlab / github / bitbucket
 ** Choisir la ou les branches à synchroniser sur votre poste
-** Indiquer l'emplacement de destination (Attention, pour des raisons de performances, Eclipse conseille de ne pas choisir le workspace. cf. https://wiki.eclipse.org/EGit/User_Guide#Eclipse_Workspace_and_Repository_working_directory[Usr Guide])
+** Indiquer l'emplacement de destination (Attention, pour des raisons de performances, Eclipse conseille de ne pas choisir le workspace. cf. https://wiki.eclipse.org/EGit/User_Guide#Eclipse_Workspace_and_Repository_working_directory[User Guide])
 * Tracker un nouveau fichier : Add
 ** Utilisez la vue Git Staging (à ouvrir dans la/les perspective(s) que vous utilisez)
 ** Faire glisser/déposer avec le ou les fichiers que vous voulez
