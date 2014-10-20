@@ -2,14 +2,31 @@
 === Ce que l'on va voir :
 
 * Cloner un dépôt existant
-* Add
+** Ouvrir la perspective Git
+** Dans la vue "Git Repositories", utiliser l'icône "Clone a Git Repository and add the clone to the view"
+** Indiquez les informations nécessaire : Vous pouvez directement utiliser l'url indiquée sur gitlab / github / bitbucket
+** Choisir la ou les branches à synchroniser sur votre poste
+** Indiquer l'emplacement de destination (Attention, pour des raisons de performances, Eclipse conseille de ne pas choisir le workspace. cf. https://wiki.eclipse.org/EGit/User_Guide#Eclipse_Workspace_and_Repository_working_directory[Usr Guide])
+* Tracker un nouveau fichier : Add
+** Utilisez la vue Git Staging (à ouvrir dans la/les perspective(s) que vous utilisez)
+** Faire glisser/déposer avec le ou les fichiers que vous voulez
+** Ou alors faire un clic droit puis "Add to index"
 * Comparer des fichiers
-** Oublier ce que vous faisiez avec SVN
-** Utiliser la vue Git Staging uniquement. Pas de Team > Synchronize
-* Commit
+** Oublier ce que vous faisiez avec SVN, on n'utilise pas "Team > Synchronize". D'ailleurs, ça n'est plus disponible.
+** Sur un fichier situé dans la partie "Unstaged Changes", un double clic permet de comparer avec ce qui est déjà ajouté à l'index
+** Sur un fichier ajouté à l'index, un double clic permet de comparer avec ce qui est commité en local
+* Commit d'un fichier
+** Rappel : c'est local, pas distant
+** Dans la vue "Git Staging", une fois les fichiers ajouté à l'index (présent dans la partie "Staged Changes"), écrire un commentaire *pertinent* et cliquer sur "Commit"
+** Astuce, une fois votre commentaire *pertinent* écrit, vous pouvez utiliser le raccourci "Ctrl + Enter" pour effectuer votre commit
 * Push
-* Fetch / Pull
-* Vous voulez voir quoi la semaine prochaine ?
+** Retour à la perspective "Git"
+** Clic droit sur la branche puis "Push branch..."
+** Ou alors, clic droit sur le dépôt puis "Push to upstream"
+** Si vous n'êtes pas à jour par rapport au dépôt distant, vous serez averti. Dans ce cas, lisez la suite.
+* Fetch / Pull ou comment récupérer les données et les intégrer
+** Clic droit sur le dépôt puis "Fetch from upstream". Permet de synchroniser le dépôt. *Attention ne merge/rebase pas les données venant du dépôt distant dans vos branches locales*.
+** Clic droit sur le dépôt puis "Pull". Permet de synchoniser et d'appliquer les modifications distantes en local. Pour des cas plus complexe, lire la suite.
  
 === Ce que l'on ne verra que la semaine prochaine :
 
