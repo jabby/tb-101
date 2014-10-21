@@ -39,4 +39,7 @@
 ** Plus de truc
 ** Voir la partie quand il y a un rebase / merge qui est en cours car conflit.
 * La gestion de la config via EGit
-* Que se passe-t-il après deux commit si on fait commit and push
+* Que se passe-t-il après deux commit si on fait commit and push ?
+
+=== Semaine 3
+* Y-a-til une différence entre checkout branche locale et switch de branches
