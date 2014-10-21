@@ -36,7 +36,7 @@
 * La gestion des branches (création / switch)
 ** Attention aux éditeurs ouverts
 * La gestion des rebases
-** Plus de truc
+** Se placer sur la branche de destinations
 ** Voir la partie quand il y a un rebase / merge qui est en cours car conflit.
 * La gestion de la config via EGit
 * Que se passe-t-il après deux commit si on fait commit and push ?
