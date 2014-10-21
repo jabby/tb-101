@@ -32,14 +32,14 @@
 
 * Voir l'historique des fichiers / modifications
 * Voir qui a modifié une ligne
-
 * La gestion des branches (création / switch)
 ** Attention aux éditeurs ouverts
 * La gestion des rebases
 ** Se placer sur la branche de destinations
 ** Voir la partie quand il y a un rebase / merge qui est en cours car conflit.
 * La gestion de la config via EGit
-* Que se passe-t-il après deux commit si on fait commit and push ?
+
 
 === Semaine 3
 * Y-a-til une différence entre checkout branche locale et switch de branches
+* Que se passe-t-il après deux commit si on fait commit and push ?
