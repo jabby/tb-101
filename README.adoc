@@ -7,4 +7,4 @@ Qu'est ce que c'est que les tb101 ? Des petites présentations techniques pour a
 
 ## Liste des tb101
 
-*   egit/READMe.adoc[Apprendre à utiliser Egit]
+*   link:egit/READMe.adoc[Apprendre à utiliser Egit]
